@@ -47,13 +47,17 @@ var loadDynamicModule = function(somePath) {
 };
 ```
 
-## Running tests
-
-`npm install && npm test`
-
 ## Other Stuff
 
 This really is just a thin wrapper around Q, adding one extra function. So you can still use everything that Q gives you.
+
+## Gotchas
+
+Currently only works for node.js or CommonJS environments.
+
+## Running tests
+
+`npm install && npm test`
 
 ## With thanks
 
