@@ -2,6 +2,15 @@
   "name": "q-as-promised",
   "version": "0.0.1",
   "description": "A simple wrapper around the awesome Q promise library, making working with deferreds a little simpler.",
+  "homepage": "https://github.com/fiznool/q-as-promised",
+  "author": {
+    "name": "Tom Spencer",
+    "email": "fiznool@gmail.com",
+    "url": "https://github.com/fiznool"
+  },
+  "keywords": [
+    "q", "promise", "promises", "deferred", "node"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha spec.js"
@@ -10,20 +19,18 @@
     "type": "git",
     "url": "http://github.com/fiznool/q-as-promised.git"
   },
-  "keywords": [
-    "q", "promise", "promises", "deferred", "node"
-  ],
-  "author": "Tom Spencer",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fiznool/q-as-promised/issues"
   },
-  "homepage": "https://github.com/fiznool/q-as-promised",
   "dependencies": {
     "q": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "^1.19.0",
     "expect.js": "^0.3.1"
+  },
+  "engines": {
+    "node": ">=0.6.0",
   }
 }
