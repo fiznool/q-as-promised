@@ -1,3 +1,9 @@
+# Don't Use This!
+
+It's been [pointed out](https://github.com/fiznool/q-as-promised/issues/1) that this addition to Q isn't actually needed, as [Q supports this syntax natively](https://github.com/kriskowal/q/wiki/API-Reference#qpromiseresolver).
+
+So instead of doing `Q.asPromised()` as outlined below, use `Q.Promise()` instead. The only difference is that the third argument of `Q.Promise()` is `notify` instead of `deferred`, which actually makes a lot more sense! :-)
+
 # Q-as-promised
 
 A simple wrapper around the awesome [Q promise library](https://github.com/kriskowal/q), making working with deferreds a little easier.
